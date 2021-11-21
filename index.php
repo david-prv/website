@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    
+<header>
+
+    <!--- Website Title --->
+    <title>David Dewes</title>
+
+    <!--- Meta Information --->
+    <meta name="title" content="David Dewes Landingpage">
+    <meta name="description" content="I'm a cybersecurity student and also a backend developer, nice to meet you!">
+    <meta name="keywords" content="landing, page, landingpage, web, developer, backend, cybersecurity, cysec, student, saarland, UdS, university, backend-developer, web-developer, university of saarland">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="David Dewes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!--- Includes --->
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <script src="./js/main.js"></script>
+</header>
+
+<body onload="checkPath()">
+    
+    <div class="content">
+        
+        <!--- Dynamic Content --->
+        <span id="dynamic">
+            <h2>Hi &#128075;</h2>
+            <p>
+                My name is David, nice to meet you.<br>
+                I'm a cybersecurity student at the University of Saarland in Germany.<br>
+                Currently I work as a Backend Developer at <a class="external-url" href="https://etage-4.de">ETAGE 4</a>.
+            </p>
+        
+            <div class="list">
+                <ul>
+                    <li><a href="https://github.com/david-prv"><i class="fab fa-github fa-lg"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/david-dewes-7a544a222/"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                    <li><a href="https://twitter.com/einfachdavidlol"><i class="fab fa-twitter fa-lg"></i></a></li>
+                    <li><a href="https://www.instagram.com/whocaresokthanks/"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    <li><a href="mailto:hello@david-dewes.de"><i class="fas fa-envelope fa-lg"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="list float-right">
+                <ul>
+                    <li><a class="list-nav" href="./downloads/CV.pdf">CV</a></li>
+                    <li><a class="list-nav" onclick="toggleImprint()" >Imprint</a></li>
+                </ul>
+            </div>
+
+        </span>
+    </div>
+</body>
+
+</html>
