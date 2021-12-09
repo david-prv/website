@@ -44,7 +44,7 @@ function showImprint() {
 
 <strong>Information according to &sect; 5 TMG</strong>
 <p>David Dewes<br />
-Schw&auml;nselstr. 5<br />
+Schw&auml;hnselstr. 5<br />
 66125 Saarbr&uuml;cken</p>
 
 <strong>Contact</strong>
