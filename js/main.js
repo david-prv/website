@@ -40,7 +40,7 @@ async function toggleImprint() {
 // Function that actually inserts the imprint
 function showImprint() {
     tempHtml = document.getElementById("dynamic").innerHTML;
-    document.getElementById("dynamic").innerHTML = `<h2>Imprint &#9878;&#65039;</h2>
+    document.getElementById("dynamic").innerHTML = `<h2>Imprint</h2>
 
 <strong>Information according to &sect; 5 TMG</strong>
 <p>David Dewes<br />
