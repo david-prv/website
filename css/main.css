@@ -20,8 +20,25 @@
 /* ======================================================
    Main CSS Styles */
 
+.me-img {
+    width:23%;
+    border-radius: 50%;
+    float:left;
+    padding:20px;
+    margin-right:10px;
+}
+
+.text-div {
+    width:67%;
+    float:right;
+}
+
 .float-right {
     float: right !important;
+}
+
+.float-left {
+    float: left !important;
 }
 
 .overflow-auto {
@@ -110,6 +127,18 @@ i:hover {
 .list-nav:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.fade-out {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1.2s, opacity 1.2s linear;
+}
+
+.fade-in {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.7s linear;
 }
 
 /* ====================================================== */
