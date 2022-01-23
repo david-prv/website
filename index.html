@@ -25,6 +25,7 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 
     <script src="./js/main.js"></script>
+    <script src="./js/hi.js"></script>
 </header>
 
 <body onload="checkPath()">
@@ -33,7 +34,7 @@
         
         <!--- Dynamic Content --->
         <span id="dynamic">
-            <h2>Hi,</h2>
+            <h2 id="hello">Hola,</h2>
             <p>
                 My name is David, nice to meet you.<br>
                 I'm a cybersecurity student at the University of Saarland in Germany.<br>
@@ -52,8 +53,8 @@
 
             <div class="list float-right">
                 <ul>
-                    <li><a class="list-nav" href="./downloads/CV.pdf">CV</a></li>
-                    <li><a class="list-nav" onclick="toggleImprint()" >Imprint</a></li>
+                    <li><a class="list-nav" id="contact" onclick='window.open("https://tawk.to/chat/5c15450b7a79fc1bddf11603/default","Chat","resizable,height=700,width=370"); return false;'>Contact</a></li>
+                    <li><a class="list-nav" id="imprint" onclick="toggleImprint()" >Imprint</a></li>
                 </ul>
             </div>
 
@@ -62,3 +63,12 @@
 </body>
 
 </html>
+
+<!-- Responsive adjustments -->
+<script type="text/javascript">
+    // Adjust footer
+    if(window.innerWidth <= 373) {
+        document.getElementById("contact").innerText = "DM";
+        document.getElementById("imprint").innerText = "Legal";
+    }
+</script>
