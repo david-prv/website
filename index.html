@@ -64,11 +64,7 @@
 
 </html>
 
-<!-- Responsive adjustments -->
+<!-- DOM event listeners -->
 <script type="text/javascript">
-    // Adjust footer
-    if(window.innerWidth <= 373) {
-        document.getElementById("contact").innerText = "DM";
-        document.getElementById("imprint").innerText = "Legal";
-    }
+    window.addEventListener('resize', checkWindow, true);
 </script>
