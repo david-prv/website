@@ -61,3 +61,14 @@ function returnToOriginal() {
     document.getElementById("dynamic").innerHTML = tempHtml;
     window.history.replaceState( {} , 'back', '/' );
 }
+
+// Check window size and adjust footer
+function checkWindow() {
+    if(window.innerWidth <= 373) {
+        document.getElementById("contact").innerText = "DM";
+        document.getElementById("imprint").innerText = "Legal";
+    } else {
+        document.getElementById("contact").innerText = "Contact";
+        document.getElementById("imprint").innerText = "Imprint";
+    }
+}
