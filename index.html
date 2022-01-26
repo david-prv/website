@@ -28,6 +28,7 @@
     <script src="./js/hi.js"></script>
 </header>
 
+<!-- Check web path -->
 <body onload="checkPath()">
     
     <div class="content">
@@ -47,14 +48,14 @@
                     <li><a href="https://www.linkedin.com/in/david-dewes-7a544a222/"><i class="fab fa-linkedin fa-lg"></i></a></li>
                     <li><a href="https://twitter.com/einfachdavidlol"><i class="fab fa-twitter fa-lg"></i></a></li>
                     <li><a href="https://www.instagram.com/whocaresokthanks/"><i class="fab fa-instagram fa-lg"></i></a></li>
-                    <li><a href="mailto:hello@david-dewes.de"><i class="fas fa-envelope fa-lg"></i></a></li>
+                    <li><a onclick='window.open("https://tawk.to/chat/5c15450b7a79fc1bddf11603/default","Chat","resizable,height=700,width=370"); return false;'><i class="fas fa-comment"></i></a></li>
                 </ul>
             </div>
 
             <div class="list float-right">
                 <ul>
-                    <li><a class="list-nav" id="contact" onclick='window.open("https://tawk.to/chat/5c15450b7a79fc1bddf11603/default","Chat","resizable,height=700,width=370"); return false;'>Contact</a></li>
-                    <li><a class="list-nav" id="imprint" onclick="toggleImprint()" >Imprint</a></li>
+                    <li><a class="list-nav" id="privacy" onclick="togglePrivacy()">Privacy</a></li>
+                    <li><a class="list-nav" id="imprint" onclick="toggleImprint()">Imprint</a></li>
                 </ul>
             </div>
 
@@ -63,8 +64,3 @@
 </body>
 
 </html>
-
-<!-- DOM event listeners -->
-<script type="text/javascript">
-    window.addEventListener('resize', checkWindow, true);
-</script>
