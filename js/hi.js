@@ -7,6 +7,8 @@ let iterations = 0;
 
 let x = setInterval(function() {
 
+    if(!document.getElementById("hello")) return;
+
     // Start timed fade-out
     if(iterations == hellos.length - 6) document.getElementById("hello").classList.add("fade-out");
 
