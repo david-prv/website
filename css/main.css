@@ -99,6 +99,7 @@ div ul li:before {
 a {
     color: rgb(69, 68, 68);
     text-decoration: none;
+    cursor: pointer;
 }
 
 i:hover {
