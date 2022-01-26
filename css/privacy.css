@@ -1,0 +1,32 @@
+/* ======================================================
+   Main CSS Style */
+
+body {
+    background: none!important;
+    padding:10px;
+    padding-top:initial;
+}
+.privacy {
+   font-family: 'Poppins';
+   color: rgb(94, 94, 94);
+   font-size: 1em;
+   word-wrap: break-word;
+   overflow-wrap: break-word;
+}
+
+/* ====================================================== */
+
+
+
+/* ======================================================
+   Google Translator */
+
+.goog-te-gadget-simple {
+    border-radius: 10px !important;
+    padding: 4px !important;
+}
+.goog-te-gadget-simple span {
+    border-left:none!important;
+}
+
+/* ====================================================== */
