@@ -9,6 +9,14 @@ This website was intentionally programmed for no purpose. It was a boredom proje
 ### 0. Requirements
 1. FontAwesome v5.15 (cdn or local version)
 2. Any environment (LAMP stack, ...)
+3. Python ``cssmin`` module
+```bash
+pip install cssmin
+```
+4. ``uglify.js`` npm package
+```bash
+npm install uglify-js -g
+```
 
 ### 1. Download Repository
 You can do this by multiple ways. When using the desktop application, you can just give it the repository url and download it. For terminal-based systems, you will need to do it with the `git` command.
