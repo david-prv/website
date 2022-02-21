@@ -5,7 +5,7 @@ let final_hello = "Hey";
 // Delayed loop
 let iterations = 0;
 
-let x = setInterval(function() {
+let interval = setInterval(function() {
 
     if(!document.getElementById("hello")) return;
 
@@ -18,14 +18,14 @@ let x = setInterval(function() {
         iterations += 1;
     } else {
         // Stop loop
-        clearInterval(x);
+        clearInterval(interval);
         
         // Fade-in
         setTimeout(function() {
             document.getElementById("hello").innerText = final_hello + ",";
             document.getElementById("hello").classList.remove("fade-out");
             document.getElementById("hello").classList.add("fade-in");
-        }, 700);
+        }, 300);
     }
 
 }, 200);
