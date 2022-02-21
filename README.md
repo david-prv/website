@@ -33,7 +33,16 @@ sudo mv <git-dir> <html-dir> && cd <html-dir>
 And that's pretty much it.
 
 ### 3. Adjustments
-You now should adjust the relative paths, if needed. After that, your project should run!
+You now should adjust the relative paths, if needed. Also, you now can adjust styles and scripts.
+
+### 4. Run compressor
+Now it's time to run the compressor script:
+```bash
+cd [working-dir] && ./compressor.sh
+```
+
+### 5. You are done
+Don't forget to put credits somewhere, in case you want to use this site. Also, you need to keep already existing the credits.
 
 ## Credits
 
