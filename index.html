@@ -4,11 +4,11 @@
 <header>
 
     <!--- Website Title --->
-    <title>David Dewes</title>
+    <title>David Dewes :: Landingpage</title>
 
     <!--- Meta Information --->
     <meta name="title" content="David Dewes Landingpage">
-    <meta name="description" content="I'm a cybersecurity student and also a backend developer, nice to meet you!">
+    <meta name="description" content="I'm a cybersecurity student and also a backend developer, nice to meet you! My stack: Python, PHP, JS, OCaml, .NET, SQL & more...">
     <meta name="keywords" content="landing, page, landingpage, web, developer, backend, cybersecurity, cysec, student, saarland, UdS, university, backend-developer, web-developer, university of saarland">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html">
@@ -29,13 +29,15 @@
 </header>
 
 <!-- Check web path -->
-<body onload="checkPath()">
+<body onload="checkPath();init();">
     
+    <canvas id="canvas"></canvas>
+
     <div class="content">
         
         <!--- Dynamic Content --->
         <span id="dynamic">
-            <h2 id="hello">Hola,</h2>
+            <h1 id="hello">Hola,</h1>
             <p>
                 My name is David, nice to meet you.<br>
                 I'm a cybersecurity student at the University of Saarland in Germany.<br>
